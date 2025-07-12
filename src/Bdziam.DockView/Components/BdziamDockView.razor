@@ -1,0 +1,27 @@
+@inherits Bdziam.DockView.Infrastructure.IdComponentBase
+
+<div @attributes="@AdditionalAttributes" id="@Id" class="@ClassString">
+    <template>
+        @if (DockView == null)
+        {
+            <DockViewIcon Function="bar" IconName="drag_indicator"></DockViewIcon>
+            <DockViewIcon Function="close" IconName="close"></DockViewIcon>
+            <DockViewIcon Function="lock" IconName="lock"></DockViewIcon>
+            <DockViewIcon Function="lock_open" IconName="lock_open"></DockViewIcon>
+            <DockViewIcon Function="full" IconName="fullscreen"></DockViewIcon>
+            <DockViewIcon Function="restore" IconName="fullscreen_exit"></DockViewIcon>
+            <DockViewIcon Function="float" IconName="picture_in_picture_alt"></DockViewIcon>
+            <DockViewIcon Function="dock" IconName="tab_unselected"></DockViewIcon>
+            <DockViewIcon Function="down" IconName="expand_more"></DockViewIcon>
+            <DockViewIcon Function="pin" IconName="push_pin"></DockViewIcon>
+            <DockViewIcon Function="pushpin" IconName="keep"></DockViewIcon>
+            <DockViewDropdownIcon Function="dropdown" IconName="arrow_drop_down"></DockViewDropdownIcon>
+        }
+
+        <CascadingValue Value="this" IsFixed="true">
+            <CascadingValue Value="_components" IsFixed="true">
+                @ChildContent
+            </CascadingValue>
+        </CascadingValue>
+    </template>
+</div>

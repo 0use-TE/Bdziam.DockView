@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Bdziam.DockView.Demo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Bdziam.DockView.Demo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Bdziam.DockView.Demo.props",
+      "PackagePath": "build\\Bdziam.DockView.Demo.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Bdziam.DockView.Demo.props",
+      "PackagePath": "buildMultiTargeting\\Bdziam.DockView.Demo.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Bdziam.DockView.Demo.props",
+      "PackagePath": "buildTransitive\\Bdziam.DockView.Demo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

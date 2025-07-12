@@ -1,0 +1,13 @@
+@inherits DockViewComponentBase
+
+<div id="@Id" class="b-dockview-panel" data-b-key="@Key" data-b-title="@Title">
+    @if (TitleTemplate != null)
+    {
+        @TitleTemplate
+    }
+    else if (ShowTitleBar)
+    {
+        <DockViewTitleBar BarIcon="@TitleBarIcon" BarIconUrl="@TitleBarIconUrl" OnClickBarCallback="OnClickBar"></DockViewTitleBar>
+    }
+    @ChildContent
+</div>
