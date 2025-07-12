@@ -34,7 +34,8 @@
 /Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/1li38psuv5-p050adc34q.gz
 /Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/x7q3tblaxp-ace03z4fz1.gz
 /Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/9cvj6sedwn-w0iweqf89g.gz
-/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz
-/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz
 /Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/crq7h1nuz0-jy50a1y5sp.gz
 /Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/11887amymd-ls47bfvh63.gz
+/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/Bdziam.DockView.sourcelink.json
+/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz
+/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz

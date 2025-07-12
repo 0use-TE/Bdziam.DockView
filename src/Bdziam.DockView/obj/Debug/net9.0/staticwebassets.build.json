@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "++LxeTV8SX/bT/SSfhqZuR20nkA/VcZ1Cp1aONIDQXA=",
+  "Hash": "L6cKIGAYq89Sl4VsTOtsNed1jkSJ5m/AVV+2uHEJLsg=",
   "Source": "Bdziam.DockView",
   "BasePath": "_content/Bdziam.DockView",
   "Mode": "Default",
@@ -80,12 +80,12 @@
       "OriginalItemSpec": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/css/dockview-bb.css"
     },
     {
-      "Identity": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz",
+      "Identity": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz",
       "SourceId": "Bdziam.DockView",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Bdziam.DockView",
-      "RelativePath": "js/dockview-group#[.{fingerprint=kusfyxgm6v}]?.js.gz",
+      "RelativePath": "js/dockview-group#[.{fingerprint=6ake43o8iz}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -94,8 +94,8 @@
       "RelatedAsset": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-group.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f0sl8nnd52",
-      "Integrity": "D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI=",
+      "Fingerprint": "g6amvtdsne",
+      "Integrity": "+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-group.js"
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-icon.js"
     },
     {
-      "Identity": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz",
+      "Identity": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz",
       "SourceId": "Bdziam.DockView",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Bdziam.DockView",
-      "RelativePath": "js/dockview-config#[.{fingerprint=zsfk5ih86c}]?.js.gz",
+      "RelativePath": "js/dockview-config#[.{fingerprint=qcn88s0bhf}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-config.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "45123bsu0f",
-      "Integrity": "SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U=",
+      "Fingerprint": "u7nj0mjk9m",
+      "Integrity": "trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-config.js"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zsfk5ih86c",
-      "Integrity": "A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=",
+      "Fingerprint": "qcn88s0bhf",
+      "Integrity": "OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/dockview-config.js"
@@ -598,8 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kusfyxgm6v",
-      "Integrity": "NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=",
+      "Fingerprint": "6ake43o8iz",
+      "Integrity": "Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/dockview-group.js"
@@ -2327,12 +2327,12 @@
     },
     {
       "Route": "js/dockview-config.js",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000329272308"
+          "Quality": "0.000294985251"
         }
       ],
       "ResponseHeaders": [
@@ -2342,15 +2342,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3036"
+          "Value": "3389"
         },
         {
           "Name": "ETag",
-          "Value": "\"SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U=\""
+          "Value": "\"trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2370,13 +2370,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\""
+          "Value": "W/\"OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="
+          "Value": "sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="
         }
       ]
     },
@@ -2391,7 +2391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14112"
+          "Value": "15745"
         },
         {
           "Name": "Content-Type",
@@ -2399,11 +2399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\""
+          "Value": "\"OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2413,13 +2413,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="
+          "Value": "sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="
         }
       ]
     },
     {
       "Route": "js/dockview-config.js.gz",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2428,7 +2428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3036"
+          "Value": "3389"
         },
         {
           "Name": "Content-Type",
@@ -2436,11 +2436,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U=\""
+          "Value": "\"trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2458,18 +2458,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U="
+          "Value": "sha256-trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc="
         }
       ]
     },
     {
-      "Route": "js/dockview-config.zsfk5ih86c.js",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz",
+      "Route": "js/dockview-config.qcn88s0bhf.js",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000329272308"
+          "Quality": "0.000294985251"
         }
       ],
       "ResponseHeaders": [
@@ -2479,15 +2479,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3036"
+          "Value": "3389"
         },
         {
           "Name": "ETag",
-          "Value": "\"SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U=\""
+          "Value": "\"trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2507,13 +2507,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\""
+          "Value": "W/\"OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zsfk5ih86c"
+          "Value": "qcn88s0bhf"
         },
         {
           "Name": "label",
@@ -2521,12 +2521,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="
+          "Value": "sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="
         }
       ]
     },
     {
-      "Route": "js/dockview-config.zsfk5ih86c.js",
+      "Route": "js/dockview-config.qcn88s0bhf.js",
       "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-config.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2536,7 +2536,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14112"
+          "Value": "15745"
         },
         {
           "Name": "Content-Type",
@@ -2544,11 +2544,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\""
+          "Value": "\"OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2558,7 +2558,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zsfk5ih86c"
+          "Value": "qcn88s0bhf"
         },
         {
           "Name": "label",
@@ -2566,13 +2566,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="
+          "Value": "sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="
         }
       ]
     },
     {
-      "Route": "js/dockview-config.zsfk5ih86c.js.gz",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-zsfk5ih86c.gz",
+      "Route": "js/dockview-config.qcn88s0bhf.js.gz",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/f9n2k0ulvd-qcn88s0bhf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2581,7 +2581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3036"
+          "Value": "3389"
         },
         {
           "Name": "Content-Type",
@@ -2589,11 +2589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U=\""
+          "Value": "\"trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:03:19 GMT"
+          "Value": "Sat, 12 Jul 2025 11:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2611,7 +2611,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zsfk5ih86c"
+          "Value": "qcn88s0bhf"
         },
         {
           "Name": "label",
@@ -2619,7 +2619,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SKGQZ+gOYyAInXwZFrKSAE2VehPeSLTCaea4jMklv7U="
+          "Value": "sha256-trubJfgAHUK0PCKlmkIeqP+2PxnY6JWIja9aWQnkrIc="
         }
       ]
     },
@@ -3816,13 +3816,13 @@
       ]
     },
     {
-      "Route": "js/dockview-group.js",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz",
+      "Route": "js/dockview-group.6ake43o8iz.js",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000158553988"
+          "Quality": "0.000155279503"
         }
       ],
       "ResponseHeaders": [
@@ -3832,19 +3832,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6306"
+          "Value": "6439"
         },
         {
           "Name": "ETag",
-          "Value": "\"D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI=\""
+          "Value": "\"+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3860,18 +3860,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=\""
+          "Value": "W/\"Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "6ake43o8iz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dockview-group.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk="
+          "Value": "sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="
         }
       ]
     },
     {
-      "Route": "js/dockview-group.js",
+      "Route": "js/dockview-group.6ake43o8iz.js",
       "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-group.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3881,7 +3889,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29006"
+          "Value": "29407"
         },
         {
           "Name": "Content-Type",
@@ -3889,121 +3897,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=\""
+          "Value": "\"Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk="
-        }
-      ]
-    },
-    {
-      "Route": "js/dockview-group.js.gz",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI="
-        }
-      ]
-    },
-    {
-      "Route": "js/dockview-group.kusfyxgm6v.js",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000158553988"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6306"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kusfyxgm6v"
+          "Value": "6ake43o8iz"
         },
         {
           "Name": "label",
@@ -4011,13 +3919,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk="
+          "Value": "sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="
         }
       ]
     },
     {
-      "Route": "js/dockview-group.kusfyxgm6v.js",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-group.js",
+      "Route": "js/dockview-group.6ake43o8iz.js.gz",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4026,7 +3934,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29006"
+          "Value": "6439"
         },
         {
           "Name": "Content-Type",
@@ -4034,56 +3942,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=\""
+          "Value": "\"+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kusfyxgm6v"
-        },
-        {
-          "Name": "label",
-          "Value": "js/dockview-group.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk="
-        }
-      ]
-    },
-    {
-      "Route": "js/dockview-group.kusfyxgm6v.js.gz",
-      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-kusfyxgm6v.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 11:11:40 GMT"
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4101,7 +3964,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kusfyxgm6v"
+          "Value": "6ake43o8iz"
         },
         {
           "Name": "label",
@@ -4109,7 +3972,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-D/UB78GWwtE7H0J432h9nvIpIBXyk725pdSvqQ3a6DI="
+          "Value": "sha256-+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw="
+        }
+      ]
+    },
+    {
+      "Route": "js/dockview-group.js",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000155279503"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6439"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="
+        }
+      ]
+    },
+    {
+      "Route": "js/dockview-group.js",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/wwwroot/js/dockview-group.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="
+        }
+      ]
+    },
+    {
+      "Route": "js/dockview-group.js.gz",
+      "AssetFile": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/obj/Debug/net9.0/compressed/2sgzac8xai-6ake43o8iz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 11:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+D+vZX5bAHilgabYAmKUeorHjDX5XY4uEyOEsQw+0jw="
         }
       ]
     },

@@ -1388,7 +1388,7 @@
         }
       },
       {
-        "HashCode": -281729521,
+        "HashCode": -1229713029,
         "Kind": "Components.Component",
         "Name": "Bdziam.DockView.Components.DockViewDropdownIcon",
         "AssemblyName": "Bdziam.DockView",
@@ -1400,6 +1400,16 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DropdownItems",
+            "TypeName": "System.Collections.Generic.List<Bdziam.DockView.Components.DockViewDropdownItem>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewDropdownIcon.DropdownItems\">\n    <summary>\n    Get/set the dropdown items for this specific dropdown\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "DropdownItems",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::Bdziam.DockView.Components.DockViewDropdownItem>"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "Function",
@@ -1419,6 +1429,38 @@
             "Metadata": {
               "Common.PropertyName": "IconName",
               "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsToggled",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.IsToggled\">\n    <summary>\n    Get/set the initial toggle state for lock icons\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "IsToggled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnClick\">\n    <summary>\n    Event callback for when the icon is clicked\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnToggleChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnToggleChanged\">\n    <summary>\n    Event callback for when toggle state changes (for lock icons)\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnToggleChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
             }
           },
           {
@@ -1450,7 +1492,7 @@
         }
       },
       {
-        "HashCode": 1925607857,
+        "HashCode": -1729466812,
         "Kind": "Components.Component",
         "Name": "Bdziam.DockView.Components.DockViewDropdownIcon",
         "AssemblyName": "Bdziam.DockView",
@@ -1462,6 +1504,16 @@
           }
         ],
         "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DropdownItems",
+            "TypeName": "System.Collections.Generic.List<Bdziam.DockView.Components.DockViewDropdownItem>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewDropdownIcon.DropdownItems\">\n    <summary>\n    Get/set the dropdown items for this specific dropdown\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "DropdownItems",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::Bdziam.DockView.Components.DockViewDropdownItem>"
+            }
+          },
           {
             "Kind": "Components.Component",
             "Name": "Function",
@@ -1481,6 +1533,38 @@
             "Metadata": {
               "Common.PropertyName": "IconName",
               "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsToggled",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.IsToggled\">\n    <summary>\n    Get/set the initial toggle state for lock icons\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "IsToggled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnClick\">\n    <summary>\n    Event callback for when the icon is clicked\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnToggleChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnToggleChanged\">\n    <summary>\n    Event callback for when toggle state changes (for lock icons)\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnToggleChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
             }
           },
           {
@@ -1513,7 +1597,7 @@
         }
       },
       {
-        "HashCode": 832685945,
+        "HashCode": -1121130981,
         "Kind": "Components.Component",
         "Name": "Bdziam.DockView.Components.DockViewIcon",
         "AssemblyName": "Bdziam.DockView",
@@ -1548,6 +1632,38 @@
           },
           {
             "Kind": "Components.Component",
+            "Name": "IsToggled",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.IsToggled\">\n    <summary>\n    Get/set the initial toggle state for lock icons\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "IsToggled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnClick\">\n    <summary>\n    Event callback for when the icon is clicked\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnToggleChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnToggleChanged\">\n    <summary>\n    Event callback for when toggle state changes (for lock icons)\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnToggleChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
             "Name": "Id",
             "TypeName": "System.String",
             "Documentation": "<member name=\"P:Bdziam.DockView.Infrastructure.IdComponentBase.Id\">\n    <summary>\n    Gets or sets the unique identifier for this component\n    </summary>\n</member>\n",
@@ -1575,7 +1691,7 @@
         }
       },
       {
-        "HashCode": -1823848884,
+        "HashCode": -397980722,
         "Kind": "Components.Component",
         "Name": "Bdziam.DockView.Components.DockViewIcon",
         "AssemblyName": "Bdziam.DockView",
@@ -1606,6 +1722,38 @@
             "Metadata": {
               "Common.PropertyName": "IconName",
               "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsToggled",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.IsToggled\">\n    <summary>\n    Get/set the initial toggle state for lock icons\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "IsToggled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnClick\">\n    <summary>\n    Event callback for when the icon is clicked\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnToggleChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "<member name=\"P:Bdziam.DockView.Components.DockViewIcon.OnToggleChanged\">\n    <summary>\n    Event callback for when toggle state changes (for lock icons)\n    </summary>\n</member>\n",
+            "Metadata": {
+              "Common.PropertyName": "OnToggleChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
             }
           },
           {

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Bdziam.DockView.Demo",
   "resources": {
-    "hash": "sha256-mEhCdAQ1VijAqbRcMK5q9I1266M4dAw+we6Xz3VZbdI=",
+    "hash": "sha256-NU/KJsZXGBVlg9GyXB9pGaq4fTPIX30wcptzusswPo4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -202,10 +202,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Bdziam.DockView.2ztkdth805.wasm": "Bdziam.DockView.wasm",
-      "Bdziam.DockView.2mdtb442vo.pdb": "Bdziam.DockView.pdb",
-      "Bdziam.DockView.Demo.9bv91rgtwa.wasm": "Bdziam.DockView.Demo.wasm",
-      "Bdziam.DockView.Demo.lwt7chq4h3.pdb": "Bdziam.DockView.Demo.pdb"
+      "Bdziam.DockView.q8uhrla91a.wasm": "Bdziam.DockView.wasm",
+      "Bdziam.DockView.3apr7uzyzh.pdb": "Bdziam.DockView.pdb",
+      "Bdziam.DockView.Demo.1pi8j4fyno.wasm": "Bdziam.DockView.Demo.wasm",
+      "Bdziam.DockView.Demo.a5761qmuu2.pdb": "Bdziam.DockView.Demo.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.st0ovrfdhi.js": "sha256-MBW/zayfv+YU6mhH7y4b8NNU4D1EYd7nf9gYrFshnnY="
@@ -416,12 +416,12 @@
       "WindowsBase.pg3o6xzigg.wasm": "sha256-dz62CHynC+zqTkbMOf3vm7YAhiRA8/pIoAwuqHfBL5M=",
       "mscorlib.jl2pswegra.wasm": "sha256-mSoCIDTdCQKTipW8VmFCypW/4AopZauaYRa8LoZdHvY=",
       "netstandard.uriri6ambh.wasm": "sha256-yuH/cvPd6r8N9nfPWihyckFD7hPFP+VQtQQxEqi7HIQ=",
-      "Bdziam.DockView.2ztkdth805.wasm": "sha256-QloZwuO7Wk+CuSQix4LemrcBaOQfmhh40o2bUGtF7ow=",
-      "Bdziam.DockView.Demo.9bv91rgtwa.wasm": "sha256-xTMWlJvtHTckdbQaRLPoCB+4tCK9QDrHCnBRljOmqBo="
+      "Bdziam.DockView.q8uhrla91a.wasm": "sha256-pv2PZsF+d8ieiuITSGxgOIBPxwxpYnoH67ep3YktTfE=",
+      "Bdziam.DockView.Demo.1pi8j4fyno.wasm": "sha256-W/zKNn5edI3BDuQaDZq87npv23uSIppYAvkr9R7Q9I4="
     },
     "pdb": {
-      "Bdziam.DockView.2mdtb442vo.pdb": "sha256-KiUhezywRGsoY0w7TkMg83DHlta69BWNDsgrMpF/x3Q=",
-      "Bdziam.DockView.Demo.lwt7chq4h3.pdb": "sha256-21xkvdQwg/79QsLMnwW6jUeYx3GCCulDb89cjyRovDo="
+      "Bdziam.DockView.3apr7uzyzh.pdb": "sha256-Rfhunrr7D+ujulbjDnIqIrSRKni7F+laYLjKCLJRHCY=",
+      "Bdziam.DockView.Demo.a5761qmuu2.pdb": "sha256-rpLfJMJuUppMFj0hp4Z5MWuyY7pg4HaHp11VYkTRX6Q="
     }
   },
   "cacheBootResources": true,

@@ -2,8 +2,10 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 // Website: https://www.blazor.zone or https://argozhang.github.io/
 
+using System.Threading.Tasks;
 using Bdziam.DockView.Infrastructure;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.Extensions.Localization;
 
 namespace Bdziam.DockView.Components;
@@ -27,6 +29,34 @@ public partial class DockViewIcon : IdComponentBase
     public string? IconName { get; set; }
 
     /// <summary>
+    /// Get/set the initial toggle state for lock icons
+    /// </summary>
+    [Parameter]
+    public bool IsToggled { get; set; }
+
+    /// <summary>
+    /// Event callback for when the icon is clicked
+    /// </summary>
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClick { get; set; }
+
+    /// <summary>
+    /// Event callback for when toggle state changes (for lock icons)
+    /// </summary>
+    [Parameter]
+    public EventCallback<bool> OnToggleChanged { get; set; }
+
+    /// <summary>
+    /// Internal toggle state
+    /// </summary>
+    private bool _isToggled;
+
+    /// <summary>
+    /// Check if this icon supports toggling
+    /// </summary>
+    private bool IsToggleIcon => Function is "lock" or "lock_open";
+
+    /// <summary>
     /// Get the style string
     /// </summary>
     private string? ClassString => CssBuilder.Default("b-dockview-control-icon")
@@ -41,7 +71,7 @@ public partial class DockViewIcon : IdComponentBase
     /// <summary>
     /// Get the actual icon name to display
     /// </summary>
-    protected string DisplayIconName => IconName ?? GetDefaultIconForFunction();
+    protected string DisplayIconName => IconName ?? GetDisplayIconForFunction();
 
     /// <summary>
     /// <inheritdoc/>
@@ -51,6 +81,39 @@ public partial class DockViewIcon : IdComponentBase
         base.OnParametersSet();
 
         Function ??= "close";
+        _isToggled = IsToggled;
+    }
+
+    /// <summary>
+    /// Handle icon click events
+    /// </summary>
+    protected async Task HandleIconClick(MouseEventArgs args)
+    {
+        if (IsToggleIcon)
+        {
+            _isToggled = !_isToggled;
+            if (OnToggleChanged.HasDelegate)
+            {
+                await OnToggleChanged.InvokeAsync(_isToggled);
+            }
+        }
+
+        if (OnClick.HasDelegate)
+        {
+            await OnClick.InvokeAsync(args);
+        }
+    }
+
+    /// <summary>
+    /// Get display icon name based on function and toggle state
+    /// </summary>
+    private string GetDisplayIconForFunction()
+    {
+        if (IsToggleIcon)
+        {
+            return _isToggled ? "lock_open" : "lock";
+        }
+        return GetDefaultIconForFunction();
     }
 
     /// <summary>

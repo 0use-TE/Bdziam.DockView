@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zsfk5ih86c</Fingerprint>
-      <Integrity>A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=</Integrity>
+      <Fingerprint>qcn88s0bhf</Fingerprint>
+      <Integrity>OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-config.js'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kusfyxgm6v</Fingerprint>
-      <Integrity>NLrBoVW9UbHqcXhsprDSTMAui9bDQE+4J0E8hUvalfk=</Integrity>
+      <Fingerprint>6ake43o8iz</Fingerprint>
+      <Integrity>Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-group.js'))</OriginalItemSpec>

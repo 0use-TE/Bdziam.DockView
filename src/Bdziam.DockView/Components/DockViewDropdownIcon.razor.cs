@@ -14,9 +14,15 @@ namespace Bdziam.DockView.Components;
 public partial class DockViewDropdownIcon
 {
     /// <summary>
-    /// Get/set the icon name
+    /// Get/set the dropdown items for this specific dropdown
     /// </summary>
-    private string? ClassString => CssBuilder.Default("dropdown dropdown-center b-dockview-control-icon")
-        .AddClass($"b-dockview-control-icon-{IconName}")
+    [Parameter]
+    public List<DockViewDropdownItem>? DropdownItems { get; set; } = new();
+
+    /// <summary>
+    /// Get/set the icon name - includes dropdown CSS class for DockView API integration
+    /// </summary>
+    private string? ClassString => CssBuilder.Default("b-dockview-control-icon b-dockview-control-icon-dropdown")
+        .AddClass($"b-dockview-control-icon-{Function}")
         .Build();
 }

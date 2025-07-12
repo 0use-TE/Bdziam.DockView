@@ -69,14 +69,14 @@
     <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-config.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-config.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14112"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:03:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15745"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:17:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-config.zsfk5ih86c.js">
+    <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-config.qcn88s0bhf.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-config.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zsfk5ih86c"},{"Name":"integrity","Value":"sha256-A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y="},{"Name":"label","Value":"_content/Bdziam.DockView/js/dockview-config.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14112"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022A0pW/Hwe9g94cyaYotK/nw1cMHKlewiW5W0pRpJOk9Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:03:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qcn88s0bhf"},{"Name":"integrity","Value":"sha256-OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo="},{"Name":"label","Value":"_content/Bdziam.DockView/js/dockview-config.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15745"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022OuA28vyWdT5JfPpCnvsCXH11IKVvUMSQKMmSY7udWJo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:17:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-content.ace03z4fz1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-content.js'))</AssetFile>
@@ -126,17 +126,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YOkEdMWL\u002BvSLKR\u002BTEVa1yCWZiw7tl1uFDaB/50fdexw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1676"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YOkEdMWL\u002BvSLKR\u002BTEVa1yCWZiw7tl1uFDaB/50fdexw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 09:52:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-group.6ake43o8iz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-group.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ake43o8iz"},{"Name":"integrity","Value":"sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="},{"Name":"label","Value":"_content/Bdziam.DockView/js/dockview-group.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29407"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:20:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-group.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-group.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE\u002B4J0E8hUvalfk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29006"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NLrBoVW9UbHqcXhsprDSTMAui9bDQE\u002B4J0E8hUvalfk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:11:40 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-group.kusfyxgm6v.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-group.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kusfyxgm6v"},{"Name":"integrity","Value":"sha256-NLrBoVW9UbHqcXhsprDSTMAui9bDQE\u002B4J0E8hUvalfk="},{"Name":"label","Value":"_content/Bdziam.DockView/js/dockview-group.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29006"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NLrBoVW9UbHqcXhsprDSTMAui9bDQE\u002B4J0E8hUvalfk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:11:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29407"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Lk4Kw/wORKclKOEDnKpnzxZAjVCHDInvAgwtpiwnnDw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 11:20:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bdziam.DockView/js/dockview-icon.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dockview-icon.js'))</AssetFile>

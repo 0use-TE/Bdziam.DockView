@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Standalone Blazor Dock View component library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("9.1.16.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("9.1.16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("9.1.16+ef310ff4df4ac5caa1360c9becb293647639e7da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bdziam.DockView")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bdziam.DockView")]
 [assembly: System.Reflection.AssemblyVersionAttribute("9.1.16.0")]

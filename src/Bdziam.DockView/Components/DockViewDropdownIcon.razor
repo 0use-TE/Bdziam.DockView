@@ -1,6 +1,22 @@
 @inherits DockViewIcon
 
-<div @attributes="@AdditionalAttributes" class="@ClassString" title="@Function" data-function="@Function">
-    <span class="material-icons" data-bs-toggle="dropdown">@DisplayIconName</span>
-    <ul class="dropdown-menu"></ul>
+<div @attributes="@AdditionalAttributes" class="@ClassString" title="@Function" data-function="@Function" id="@Id">
+    <span class="material-icons">@DisplayIconName</span>
+    @if (DropdownItems?.Any() == true)
+    {
+        <ul class="dropdown-menu">
+            @foreach (var item in DropdownItems)
+            {
+                <li>
+                    <a class="dropdown-item" href="#" @onclick="async () => await item.OnClick.InvokeAsync()" @onclick:preventDefault="true">
+                        @if (!string.IsNullOrEmpty(item.Icon))
+                        {
+                            <span class="material-icons me-2">@item.Icon</span>
+                        }
+                        @item.Text
+                    </a>
+                </li>
+            }
+        </ul>
+    }
 </div>
