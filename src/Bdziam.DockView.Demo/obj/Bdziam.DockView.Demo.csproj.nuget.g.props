@@ -4,22 +4,26 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mikserek/.nuget/packages/</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mikserek/.nuget/packages/</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">D:\SoftWare\nuegt缓存</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">D:\SoftWare\nuegt缓存;D:\SoftWare\Visual Studio\VS SDK\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="/Users/mikserek/.nuget/packages/" />
+    <SourceRoot Include="D:\SoftWare\nuegt缓存\" />
+    <SourceRoot Include="D:\SoftWare\Visual Studio\VS SDK\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack/9.0.7/build/Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack/9.0.7/build/Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/9.0.4/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/9.0.4/build/Microsoft.NET.ILLink.Tasks.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/9.0.7/build/net9.0/Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/9.0.7/build/net9.0/Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)\publishspaforgithubpages.build\3.0.1\build\PublishSPAforGitHubPages.Build.props" Condition="Exists('$(NuGetPackageRoot)\publishspaforgithubpages.build\3.0.1\build\PublishSPAforGitHubPages.Build.props')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.net.sdk.webassembly.pack\9.0.7\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)\microsoft.net.sdk.webassembly.pack\9.0.7\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.net.illink.tasks\9.0.3\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)\microsoft.net.illink.tasks\9.0.3\build\Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.aspnetcore.components.webassembly\9.0.7\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)\microsoft.aspnetcore.components.webassembly\9.0.7\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">/Users/mikserek/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.7</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
-    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">/Users/mikserek/.nuget/packages/microsoft.net.illink.tasks/9.0.4</PkgMicrosoft_NET_ILLink_Tasks>
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/Users/mikserek/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/9.0.7</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgBlazorWasmBrotliLoader_Build Condition=" '$(PkgBlazorWasmBrotliLoader_Build)' == '' ">D:\SoftWare\nuegt缓存\blazorwasmbrotliloader.build\1.0.1</PkgBlazorWasmBrotliLoader_Build>
+    <PkgPublishSPAforGitHubPages_Build Condition=" '$(PkgPublishSPAforGitHubPages_Build)' == '' ">D:\SoftWare\nuegt缓存\publishspaforgithubpages.build\3.0.1</PkgPublishSPAforGitHubPages_Build>
+    <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">D:\SoftWare\nuegt缓存\microsoft.net.sdk.webassembly.pack\9.0.7</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">D:\SoftWare\nuegt缓存\microsoft.net.illink.tasks\9.0.3</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">D:\SoftWare\nuegt缓存\microsoft.aspnetcore.components.webassembly.devserver\9.0.7</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
   </PropertyGroup>
 </Project>

@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "BlazorWasmBrotliLoader.Build/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/BlazorWasmBrotliLoader.Build.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.7": {
         "type": "package",
         "dependencies": {
@@ -433,7 +439,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.4": {
+      "Microsoft.NET.ILLink.Tasks/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -444,6 +450,16 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "PublishSPAforGitHubPages.Build/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "BlazorWasmBrotliLoader.Build": "1.0.1"
+        },
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.props": {},
+          "build/PublishSPAforGitHubPages.Build.targets": {}
         }
       },
       "Bdziam.DockView/9.1.16": {
@@ -465,6 +481,12 @@
       }
     },
     "net9.0/browser-wasm": {
+      "BlazorWasmBrotliLoader.Build/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/BlazorWasmBrotliLoader.Build.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.7": {
         "type": "package",
         "dependencies": {
@@ -896,7 +918,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.4": {
+      "Microsoft.NET.ILLink.Tasks/9.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -907,6 +929,16 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "PublishSPAforGitHubPages.Build/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "BlazorWasmBrotliLoader.Build": "1.0.1"
+        },
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.props": {},
+          "build/PublishSPAforGitHubPages.Build.targets": {}
         }
       },
       "Bdziam.DockView/9.1.16": {
@@ -929,6 +961,27 @@
     }
   },
   "libraries": {
+    "BlazorWasmBrotliLoader.Build/1.0.1": {
+      "sha512": "K5J4H+t0Y8yTUL8mV1SXuALEXTfnqbGWwmvtsv1qVaY+5P3TrSI5mHPdeow4Ib7KCgmYyLgdBD1HtT4NKvAksA==",
+      "type": "package",
+      "path": "blazorwasmbrotliloader.build/1.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazorwasmbrotliloader.build.1.0.1.nupkg.sha512",
+        "blazorwasmbrotliloader.build.nuspec",
+        "build/BlazorWasmBrotliLoader.Build.targets",
+        "bundle/scripts/brotliloader.js",
+        "bundle/scripts/brotliloader.min.js",
+        "bundle/scripts/decode.js",
+        "bundle/scripts/decode.min.js",
+        "nupkg-icon.png",
+        "tools/BlazorWasmBrotliLoader.Build.dll",
+        "tools/BrotliSharpLib.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/9.0.7": {
       "sha512": "P0Gej6X5cEoK+sS9XpgYSzg0Nz8OOlvfQb12aOAJW/P4b9nAzLQCVoNp1GDyR/P8eMSnoPARiKPaa6q51iR0oA==",
       "type": "package",
@@ -1733,10 +1786,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.4": {
-      "sha512": "xUdlUxiFwXhTYhB4VxKg/IA0+jlZXJPo70LYuMryWbJHdonIpZjw+7DO2B0pWwpXIOs6MlH5WVXPEtfrGEcVZA==",
+    "Microsoft.NET.ILLink.Tasks/9.0.3": {
+      "sha512": "1rqGTfubVg0qj2PsK6esyq3PIxtYJYrN3LsYUV9RrvH3anmt3fT3ozYdAZZH4U8JU/pt5pPIUk8NBSu26wtekA==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.4",
+      "path": "microsoft.net.illink.tasks/9.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1750,7 +1803,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.3.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1826,6 +1879,23 @@
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
+    "PublishSPAforGitHubPages.Build/3.0.1": {
+      "sha512": "DDv6bGumRljmbxlX8bkwrRQ3S2CTSYi1d4cH4wQCfKzEKnphHEB/ChkwuObImTZNwv/bzNwSg/4u1Nd/M0xnIQ==",
+      "type": "package",
+      "path": "publishspaforgithubpages.build/3.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/PublishSPAforGitHubPages.Build.props",
+        "build/PublishSPAforGitHubPages.Build.targets",
+        "nupkg-icon.png",
+        "publishspaforgithubpages.build.3.0.1.nupkg.sha512",
+        "publishspaforgithubpages.build.nuspec",
+        "tools/PublishSPAforGitHubPages.Build.dll"
+      ]
+    },
     "Bdziam.DockView/9.1.16": {
       "type": "project",
       "path": "../Bdziam.DockView/Bdziam.DockView.csproj",
@@ -1839,38 +1909,46 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.7",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.7",
       "Microsoft.Extensions.Configuration.Abstractions >= 9.0.7",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.4",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.7"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.3",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.7",
+      "PublishSPAforGitHubPages.Build >= 3.0.1"
     ]
   },
   "packageFolders": {
-    "/Users/mikserek/.nuget/packages/": {}
+    "D:\\SoftWare\\nuegt缓存": {},
+    "D:\\SoftWare\\Visual Studio\\VS SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/Bdziam.DockView.Demo.csproj",
+      "projectUniqueName": "D:\\常用\\桌面\\MyProject\\Bdziam.DockView\\src\\Bdziam.DockView.Demo\\Bdziam.DockView.Demo.csproj",
       "projectName": "Bdziam.DockView.Demo",
-      "projectPath": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/Bdziam.DockView.Demo.csproj",
-      "packagesPath": "/Users/mikserek/.nuget/packages/",
-      "outputPath": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView.Demo/obj/",
+      "projectPath": "D:\\常用\\桌面\\MyProject\\Bdziam.DockView\\src\\Bdziam.DockView.Demo\\Bdziam.DockView.Demo.csproj",
+      "packagesPath": "D:\\SoftWare\\nuegt缓存",
+      "outputPath": "D:\\常用\\桌面\\MyProject\\Bdziam.DockView\\src\\Bdziam.DockView.Demo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\SoftWare\\Visual Studio\\VS SDK\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/mikserek/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\22165\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\成品发布\\Nuget包": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/Bdziam.DockView.csproj": {
-              "projectPath": "/Users/mikserek/Projects/Bdziam.DockView/src/Bdziam.DockView/Bdziam.DockView.csproj"
+            "D:\\常用\\桌面\\MyProject\\Bdziam.DockView\\src\\Bdziam.DockView\\Bdziam.DockView.csproj": {
+              "projectPath": "D:\\常用\\桌面\\MyProject\\Bdziam.DockView\\src\\Bdziam.DockView\\Bdziam.DockView.csproj"
             }
           }
         }
@@ -1911,7 +1989,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[9.0.3, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -1919,6 +1997,10 @@
             "target": "Package",
             "version": "[9.0.7, )",
             "autoReferenced": true
+          },
+          "PublishSPAforGitHubPages.Build": {
+            "target": "Package",
+            "version": "[3.0.1, )"
           }
         },
         "imports": [
@@ -1936,10 +2018,6 @@
           {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[9.0.7, 9.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[9.0.7, 9.0.7]"
           }
         ],
         "frameworkReferences": {
@@ -1947,7 +2025,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
