@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Bdziam.DockView.Demo",
   "resources": {
-    "hash": "sha256-WsqDfuvcEcPRJpZQFddcHtrV05hIyg0d6mW+P8lx9t0=",
+    "hash": "sha256-J/UOXTyws/uc9AiDRDdUOb4ASx9azvaexHrPVzE4/i8=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.oj6ga5wqh9.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.u1fzwd9h6e.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -41,8 +41,8 @@
       "System.Text.RegularExpressions.uppli1il33.wasm": "System.Text.RegularExpressions.wasm",
       "System.wznexm8bk2.wasm": "System.wasm",
       "System.Private.CoreLib.7qmf17yiss.wasm": "System.Private.CoreLib.wasm",
-      "Bdziam.DockView.5bzgzdh35c.wasm": "Bdziam.DockView.wasm",
-      "Bdziam.DockView.Demo.exe914n7uq.wasm": "Bdziam.DockView.Demo.wasm",
+      "Bdziam.DockView.vg5mc0ah02.wasm": "Bdziam.DockView.wasm",
+      "Bdziam.DockView.Demo.3b4nmnpn21.wasm": "Bdziam.DockView.Demo.wasm",
       "dotnet.native.fpn4x653o1.js": "dotnet.native.js",
       "dotnet.native.cftxb1d1l1.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -106,8 +106,8 @@
       "System.Text.Json.bf0v5ogo67.wasm": "sha256-55heCVC9GCotKi2wXLJC5bleh+jF/+PxZLvWHZgXf4g=",
       "System.Text.RegularExpressions.uppli1il33.wasm": "sha256-cssgrj2fLKJui+a09EbhoMvUEqUJHPWKR47Ri3l887A=",
       "System.wznexm8bk2.wasm": "sha256-/Imz/Enqa2AZc4T3k/CqtsM6674KRN9OUtvK4Nokhew=",
-      "Bdziam.DockView.5bzgzdh35c.wasm": "sha256-P8IYC/sXhU6kd7obgBmOW3N6u/zZJ8p/g2+svOeDiLs=",
-      "Bdziam.DockView.Demo.exe914n7uq.wasm": "sha256-0hQ/hqo6fWQie7kJYl9hUYQ8MTObncoOm1vJXG7X3o0="
+      "Bdziam.DockView.vg5mc0ah02.wasm": "sha256-0c4beu8SzdS4aYWjoQidFD6uOS4cRtMXEpKe9FExboM=",
+      "Bdziam.DockView.Demo.3b4nmnpn21.wasm": "sha256-cahAZdM7ZuPnKzxC+/66tk2z4n8AAIBb50AiaehUlzA="
     }
   },
   "cacheBootResources": true,
